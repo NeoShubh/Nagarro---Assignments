@@ -1,0 +1,100 @@
+*{
+    background-color: rgb(207, 224, 224);
+}
+
+#set-page{
+   /* border: 2px solid black; */
+   width: 60rem;
+   height: rem;
+   margin: 2rem 2rem 2rem 10rem;
+   padding: 2rem 2rem 2rem 2rem;
+   text-align: center;
+   background: #cfe0e0;
+   box-shadow:  9px 9px 30px #899494,
+                -9px -9px 30px #ffffff;
+}
+
+#set-header{
+    color: #09a9a9;
+    border: 2px solid #09a9a9;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  right: 30%;
+  left: 10%;
+}
+
+.set-logo{
+  border-top: 2px solid #09a9a9;
+  border-bottom: 2px solid #09a9a9;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    right: 30%;
+    left: 10%;
+    
+    
+}
+.set-logo img{
+   
+    width: 322px;
+    height: 300px;
+    border: 1px solid #09a9a9;box-shadow:  9px 9px 30px #899494,
+    -9px -9px 30px #ffffff;
+}
+.set-form{
+   
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    right: 30%;
+    left: 10%;}
+
+label{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.set-basic-info input{
+background-color: #b7fab7;
+/*border-radius: 10%;*/
+width: 30rem;
+height: 1rem;
+}
+.set-radio input{
+background-color: #09a9a9;
+/*border-radius: 10%;*/
+font-size: 16px;
+}
+/*input{
+background-color: #09a9a9;
+border-radius: 10%;
+}
+*/
+label{
+    margin-top: 2rem;
+    color: #022020;
+}
+input[type="submit"] {
+    width: 120px;
+    font-size: 20px;
+    background-color: beige;
+
+  }
+  input[type="date"] {
+    width: 120px;
+    font-size: 14px;
+    background-color:#99A9BD;
+
+  } 
+  input[type="reset"] {
+    width: 120px;
+    font-size: 20px;
+    background-color: beige;
+
+  }
+  input[type="reset"]:hover{
+    background-color: #99A9BD;
+    transition: 0.7s;
+  }
+  input[type="submit"]:hover{
+    background-color: #99A9BD;
+    transition: 0.7s;
+  }
