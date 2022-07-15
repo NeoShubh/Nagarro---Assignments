@@ -1,0 +1,73 @@
+#box {
+  background-color: #a4b0b8;
+  height: 265px;
+  width: 680px;
+  visibility: hidden;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+#box.show {
+  visibility: visible;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+/* From uiverse.io by @adamgiebl */
+.clicks {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.clicks:hover {
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.clicks:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+.close {
+  position: absolute;
+  right: 22rem;
+  top: 10rem;
+  width: 40px;
+  height: 38px;
+  opacity: 0.5;
+  font-size: 24px;
+  background-color: #bbd6d7;
+}
+.close:hover {
+  border: 1px solid rgb(108, 143, 189);
+}
+
+.close:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #f2ecff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
